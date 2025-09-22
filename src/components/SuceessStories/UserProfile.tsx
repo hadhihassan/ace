@@ -1,4 +1,3 @@
-import Image from "next/image";
 import * as React from "react";
 
 interface UserProfileProps {
@@ -17,8 +16,7 @@ export function UserProfile({
 }: UserProfileProps) {
   return (
     <div className="flex gap-2">
-      <Image
-        fill
+      <img
         src={avatarSrc}
         alt={`${name} avatar`}
         className="object-contain shrink-0 w-11 rounded-full aspect-square"
