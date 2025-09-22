@@ -5,7 +5,9 @@ interface AppDownloadSectionProps {
   className?: string;
 }
 
-export function AppDownloadSection({ className = "" }: AppDownloadSectionProps) {
+export function AppDownloadSection({
+  className = "",
+}: AppDownloadSectionProps) {
   return (
     <section className={`flex flex-col mt-7 max-w-full w-[316px] ${className}`}>
       <h3 className="self-start text-lg font-medium text-stone-900">

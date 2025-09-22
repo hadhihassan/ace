@@ -2,7 +2,6 @@
 import * as React from "react";
 import { HeroContent } from "./HeroContent";
 import { HeroImage } from "./HeroImage";
-import Image from "next/image";
 
 export function HybridLearningHero() {
   return (
